@@ -1,9 +1,7 @@
  {{
     config(
         materialized='table',
-        transient=true  
-/* Can be easily rebuilt at any time, no heavy transformations,don’t need to retain history or fail-safe*/
-    )
+        transient=true     )
  }}
 select
     customer_id,

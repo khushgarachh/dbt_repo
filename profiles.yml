@@ -1,0 +1,12 @@
+default:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: TXLJNDH-DT93969        # your Snowflake account identifier
+      user: KGARACHH                      # your Snowflake username
+      password: Pitmpitm@12345              # your password or keypair
+      database: DBT_SF_DB                  # your database name
+      schema: DBT_SF_SC                  # schema for dbt models
+      warehouse: dbt_sf_wh               # 👈 your warehouse
+      threads: 4
