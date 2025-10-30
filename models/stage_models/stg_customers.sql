@@ -13,4 +13,4 @@ select
     state,
     dob,
     created_at
-from   {{ source('raw_bank', 'customers') }}
+from   {{ source('dbt_sf_db', 'customers') }}
