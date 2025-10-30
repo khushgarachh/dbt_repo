@@ -1,0 +1,9 @@
+version: 2
+sources:
+  - name: dbt_sf_db
+    database: dbt_sf_db
+    schema: dbt_sf_sc
+    tables:
+      - name: customers
+      - name: accounts
+      - name: transactions
