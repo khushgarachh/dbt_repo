@@ -1,15 +1,11 @@
-Welcome to your new dbt project!
+Banking_dbt
 
-### Using the starter project
+**Objective:**
+dbt project in Snowflake that models raw banking data into analytics-friendly tables.
 
-Try running the following commands:
-- dbt run
-- dbt test
+**Layers:**
 
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](https://getdbt.com/community) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+Source — raw tables  
+Staging — cleaned, standardized data  
+Intermediate / Transform — derived models (join/aggregate)
+Target — business-facing models (KPIs, dashboards)
