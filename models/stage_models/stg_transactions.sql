@@ -11,5 +11,6 @@ select
     txn_type,
     amount,
     channel,
-    created_at
+    created_at,
+    merchant_name
 from {{ source('dbt_sf_db', 'transactions') }}
