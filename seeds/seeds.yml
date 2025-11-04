@@ -1,0 +1,10 @@
+seeds:
+  - name: zipcodes
+    config:
+      column_types:
+        zipcodes: varchar
+  - name: zipcodes2
+    config:
+      column_types:
+        zipcodes: varchar
+      delimiter: "|"

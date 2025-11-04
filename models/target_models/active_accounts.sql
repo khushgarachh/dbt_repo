@@ -1,5 +1,6 @@
 {{ config(
-    materialized='view'
+    materialized='view',
+    query_tag='dbt_track'
 ) }}
 
 
