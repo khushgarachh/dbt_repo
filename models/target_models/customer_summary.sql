@@ -8,6 +8,7 @@ with joined as (
     select
         ca.customer_id,
         ca.full_name,
+        ca.gender,
         ca.account_id,
         ca.account_type,
         ca.balance,
