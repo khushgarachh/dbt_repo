@@ -8,7 +8,7 @@
 
 select
     c.customer_id,
-    concat(c.first_name,' ',c.last_name) as full_name,
+    {{concat_col('c.first_name','c.last_name')}}  as full_name,
     {{case_gender('c.gender')}} as gender ,
     a.account_id,
     a.account_type,
