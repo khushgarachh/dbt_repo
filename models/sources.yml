@@ -7,3 +7,4 @@ sources:
       - name: customers
       - name: accounts
       - name: transactions
+      - name: cards
