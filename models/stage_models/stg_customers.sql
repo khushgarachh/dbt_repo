@@ -10,5 +10,6 @@ select
     city,
     state,
     dob,
+    gender,
     created_at
 from   {{ source('dbt_sf_db', 'customers') }}
