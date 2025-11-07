@@ -1,7 +1,7 @@
 {% macro file_format(args) %}
 {% set ff_mco %}
 
-create or replace file format file_format_1 as
+create or replace file format file_format_1 
 type=csv
 skip_header=1
 field_delimiter =','
